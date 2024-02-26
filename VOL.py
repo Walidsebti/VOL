@@ -1096,7 +1096,7 @@ def Create():
     clear()
     print("   Auto Create Total Ids : 50000 ")
     linex()
-    for i in range(50000):
+me   for i in range(50000):
        import time
        time.sleep(2)
        tpe(max_workers=10).submit(strt)
@@ -1135,5 +1135,5 @@ def main_apv():
         print(' Payment Number Details\n 0776400310 \n Easypaisa or Jazzcash');linex()
         input(' \033[1;37mPress Enter To send key Admin')
         tks = ('%20DOD%20Owner%2-XD%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+key1);os.system('am start https://wa.me/+923239021979?text='+tks)
-        main_apv()
-main_apv()
+        menu()
+menu()
