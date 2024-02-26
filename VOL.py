@@ -1,4 +1,4 @@
-"""
+""""
 //DECOMPILED BY WALID SABTI
 @@FACEBOOK : S.walid
 """
@@ -1096,7 +1096,7 @@ def Create():
     clear()
     print("   Auto Create Total Ids : 50000 ")
     linex()
-        for i in range(50000):
+    for i in range(50000):
        import time
        time.sleep(2)
        tpe(max_workers=10).submit(strt)
