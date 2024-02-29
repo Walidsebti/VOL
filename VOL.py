@@ -762,9 +762,9 @@ def random_ua():
     abc = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','X','Y','Z']
     build = str(random.randint(9,19))+random.choice(abc)+str(random.randint(50,199))
     fbsv = str(random.randint(4,16))+'_'+str(random.randint(1,9))+'_'+str(random.randint(1,9))
-    ua1 = "Dalvik/2.1.0 (Linux; U; Android 8.1.0; LML713DL Build/OPM1.171019.019) [FBAN/Orca-Android;FBAV/244.0.0.16.236;FBPN/com.facebook.orca;FBLC/en_US;FBBV/187555057;FBCR/null;FBMF/LGE;FBBD/lge;FBDV/LML713DL;FBSV/8.1.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=1080,height=2034};FB_FW/1;]"
-    ua2 ='Dalvik/2.1.0 (Linux; U; Android 8.0.0; AGS2-L09 Build/HUAWEIAGS2-L09) [FBAN/Orca-Android;FBAV/238.0.0.14.120;FBPN/com.facebook.orca;FBLC/hu_HU;FBBV/179092826;FBCR/null;FBMF/HUAWEI;FBBD/HUAWEI;FBDV/AGS2-L09;FBSV/8.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=1200,height=1852};FB_FW/1;]'
-    ua3 = "Dalvik/2.1.0 (Linux; U; Android 9; SM-A205GN Build/PPR1.180610.011) [FBAN/Orca-Android;FBAV/242.0.0.15.119;FBPN/com.facebook.orca;FBLC/en_PH;FBBV/184324652;FBCR/TM;FBMF/samsung;FBBD/samsung;FBDV/SM-A205GN;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=1.75,width=720,height=1423};FB_FW/1;]"
+    ua1 = "Dalvik/2.1.0 (Linux; U; Android 9; moto e6 Build/PCB29.73-65-3) [FBAN/Orca-Android;FBAV/235.1.0.9.122;FBPN/com.facebook.orca;FBLC/en_US;FBBV/175782189;FBCR/Metro by T-Mobile;FBMF/motorola;FBBD/motorola;FBDV/moto e6;FBSV/9;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1344};FB_FW/1;]"
+    ua2 ='Dalvik/2.1.0 (Linux; U; Android 10; SM-N960F Build/QP1A.190711.020) [FBAN/Orca-Android;FBAV/257.1.0.21.120;FBPN/com.facebook.orca;FBLC/en_US;FBBV/205865103;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-N960F;FBSV/10;FBCA/arm64-v8a:null;FBDM/{density=2.625,width=1080,height=2094};FB_FW/1;]'
+    ua3 = "Dalvik/2.1.0 (Linux; U; Android 10; SM-N975U Build/QP1A.190711.020) [FBAN/Orca-Android;FBAV/253.0.0.17.117;FBPN/com.facebook.orca;FBLC/en_US;FBBV/200372525;FBCR/U.S. Cellular;FBMF/samsung;FBBD/samsung;FBDV/SM-N975U;FBSV/10;FBCA/arm64-v8a:null;FBDM/{density=3.5,width=1440,height=2759};FB_FW/1;] FBBK/1"
     a = random.randrange(112,115)
     b = random.randrange(1000,10000)
     c = random.randrange(10,100)
